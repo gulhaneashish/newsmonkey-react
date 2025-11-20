@@ -1,3 +1,34 @@
+📰 NewsMonkey – React News App
+
+NewsMonkey is a simple, fast, and responsive news application built with React.js.
+It fetches real-time news articles from the News API and displays them in a clean, card-based UI.
+This project demonstrates API integration, state management, React Hooks, and asynchronous JavaScript.
+
+🚀 Features
+
+📡 Fetches live news from the News API
+
+🗂 News categories: General, Sports, Technology, Business, Health & more
+
+🔄 Pagination support
+
+⏳ Loading spinner and error handling
+
+♻ Reusable Components (NewsCard, NewsContainer, Navbar, etc.)
+
+📱 Fully mobile responsive UI
+
+🛠 Tech Stack
+
+React.js
+
+JavaScript (ES6+)
+
+News API
+
+CSS
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
