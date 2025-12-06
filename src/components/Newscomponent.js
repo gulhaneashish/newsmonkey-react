@@ -42,7 +42,7 @@ static propTypes = {
   async componentDidMount(){
     
     this.props.setProgress(10);
-    const url=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=e7fb364bd33c45c2b986b384580fb3a6&page=1&pageSize=${this.props.pageSize}`;
+    const url=`http://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=e7fb364bd33c45c2b986b384580fb3a6&page=1&pageSize=${this.props.pageSize}`;
     const data= await fetch(url);
     const parsedData = await data.json();
     this.setState({
